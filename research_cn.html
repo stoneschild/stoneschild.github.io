@@ -258,6 +258,28 @@
     <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>合作论文</h2>
     <h3><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>期刊论文</h3>
 
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://doi.org/10.1109/TIV.2024.3401461">InstKD: Towards Lightweight 3D Object Detection With Instance-Aware Knowledge Distillation</a> <br> 作者: Haonan Zhang, Longjun Liu, Yuqi Huang, Xinyu Lei, <a href="https://stoneschild.github.io/">Lei Tong</a>, Bihan Wen <br> <i>IEEE Transactions on Intelligent Vehicles</i>, 2024, Early Access. <br><button class="accordion"> 
+      摘要
+      </button>   
+      <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Deep neural network (DNN) is extensively explored for LiDAR-based 3D object detection, a crucial perception task in the field of autonomous driving. However, the presence of redundant parameters and complex computations pose challenges for the practical deployment of DNNs. Despite knowledge distillation (KD) is an effective approach for accelerating models, extremely small number of efforts explore its potential on LiDARbased 3D detectors. Besides, existing studies neglect to elaborately investigate 3D voxel-wise features for compression. To this end, we propose instance-aware knowledge distillation (InstKD) for 3D detector compression. The proposed method conducts KD by fully excavating two types of knowledge related to 3D voxelwise features. Firstly, the 3D voxel-wise feature of teacher is transferred to teach the student. In order to prioritize the knowledge with strong guiding capacity, we introduce expanded bounding box (E-Bbox) to distinguish and balance the foreground and background regions. Besides, we generate contribution map (CM) by calculating the gap between the classification response of teacher and student models to further dynamically balance individual instance for distillation. Secondly, we also align the relation-based knowledge of 3D voxel-wise features between the distillation pairs. To avoid incalculable relation on a massive number of 3D voxel-wise features, we distill the relation among instances selected by E-Bboxes, where the intra-relation of homogeneous instances and inter-relation of heterogeneous instances are transferred in a dual-pathway manner. In the experiments, we compress different models on benchmarks with varying scales. The results demonstrate that our method achieves the lightweight 3D detector with slight performance drop. For example, on KITTI dataset, our 2× compressed SECOND (75.5% parameters and 74.5% FLOPs reduction) achieves 66.83% mAP, surpassing its teacher model. The key code is available at https://github.com/zhnxjtu/InstKD. </p></div>
+
+      <p style="margin:0"><button class="accordion">
+        BibTeX引用
+        </button>
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <pre> <code>
+@ARTICLE{10531046,
+  author={Zhang, Haonan and Liu, Longjun and Huang, Yuqi and Lei, Xinyu and Tong, Lei and Wen, Bihan},
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={InstKD: Towards Lightweight 3D Object Detection With Instance-Aware Knowledge Distillation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-13},
+  keywords={Three-dimensional displays;Detectors;Solid modeling;Feature extraction;Task analysis;Object detection;Point cloud compression;3D object detection;model compression;knowledge distillation;point cloud;autonomous driving},
+  doi={10.1109/TIV.2024.3401461}}
+        </code> </pre> </p></div><br>
+
+
     <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://doi.org/10.1109/TITS.2023.3281352">Self-Attentive Local Aggregation Learning With Prototype Guided Regularization for Point Cloud Semantic Segmentation of High-Speed Railways</a> <br> 作者: <a href="http://faculty.bjtu.edu.cn/trans/8951.html">Zhipeng Wang</a>, Yixuan Geng, <a href="http://faculty.bjtu.edu.cn/trans/7746.html">Limin Jia</a>,  <a href="http://faculty.bjtu.edu.cn/trans/7768.html">Yong Qin</a>, Yuanyuan Chai, <a href="https://stoneschild.github.io/">Lei Tong</a>, and Keyan Liu <br> <i>IEEE Transactions on Intelligent Transportation Systems</i>, 2023, 24(10), pp: 11157-11170. <br><button class="accordion"> 
       摘要
       </button>   
